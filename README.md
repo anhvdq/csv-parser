@@ -8,5 +8,7 @@ $ mvn clean package
 ```
 ## How to use
 ```shell
-java -cp /path/to/csv-parser-${version}-jar-with-dependencies.jar dev.pinkeraw.Application
+java -cp /path/to/csv-parser-${version}-jar-with-dependencies.jar dev.pinkeraw.Application \
+"/path/to/file_name.csv" \
+true
 ```
